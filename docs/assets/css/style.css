@@ -267,6 +267,9 @@ code {
 
 /* Buttons - Responsive */
 .btn {
+  cursor: pointer !important;
+  position: relative;
+  z-index: 100;
   display: inline-block;
   padding: 1rem 2rem;
   background: var(--primary-color);
@@ -345,6 +348,9 @@ footer {
   }
   
   .btn {
+  cursor: pointer !important;
+  position: relative;
+  z-index: 100;
     display: block;
     margin: 1rem auto;
     width: 90%;
@@ -437,4 +443,10 @@ footer {
     transition: none !important;
     animation: none !important;
   }
+}
+
+
+.hero .container {
+  position: relative;
+  z-index: 10;
 }

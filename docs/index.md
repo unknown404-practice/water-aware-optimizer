@@ -36,9 +36,9 @@ author: Ranadeep Saha
       <a href="mailto:ranadeep2021saha@gmail.com" style="color: white;">ranadeep2021saha@gmail.com</a>
     </p>
     
-    <div style="margin-top: 2rem;">
-      <a href="https://github.com/unknown404-practice/water-aware-optimizer" class="btn" target="_blank">View on GitHub</a>
-      <a href="https://github.com/unknown404-practice/water-aware-optimizer/tree/main/notebooks" class="btn" style="background: white; color: var(--primary-color);" target="_blank">View Notebooks</a>
+    <div style="margin-top: 2rem; position: relative; z-index: 999; pointer-events: auto;">
+      <a href="https://github.com/unknown404-practice/water-aware-optimizer" class="btn" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+      <a href="https://github.com/unknown404-practice/water-aware-optimizer/tree/main/notebooks" class="btn" style="background: white; color: var(--primary-color);" target="_blank" rel="noopener noreferrer">View Notebooks</a>
     </div>
   </div>
 </div>
@@ -201,8 +201,8 @@ jupyter>=1.0.0</code></pre>
       <strong>Affiliation:</strong> Member, Google Developer Group
     </p>
     
-    <div style="margin-top: 2rem;">
-      <a href="https://github.com/unknown404-practice/water-aware-optimizer" class="btn" target="_blank">View Full Project</a>
+    <div style="margin-top: 2rem; position: relative; z-index: 999; pointer-events: auto;">
+      <a href="https://github.com/unknown404-practice/water-aware-optimizer" class="btn" target="_blank" rel="noopener noreferrer">View Full Project</a>
     </div>
   </div>
 </section>
