@@ -1,7 +1,46 @@
 ---
 layout: default
 title: AI Water-Aware Optimizer | Ranadeep Saha
----
+---\n
+<style>
+/* 100% Mobile & Media Responsive CSS */
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+table {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+pre {
+    overflow-x: auto;
+    max-width: 100%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+code {
+    word-break: break-all;
+}
+@media (max-width: 768px) {
+    body {
+        padding: 15px !important;
+        font-size: 16px;
+    }
+    h1 { font-size: 1.8em; }
+    h2 { font-size: 1.5em; }
+    h3 { font-size: 1.2em; }
+}
+</style>
+\n
 # AI-Powered Water-Aware Workload & Cooling Optimizer
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
