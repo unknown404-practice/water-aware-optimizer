@@ -13,4 +13,4 @@ defaults:
       path: ""
     values:
       layout: "default"
-      css: "/assets/css/style.css"
+      css: "/assets/css/style_v2.css"

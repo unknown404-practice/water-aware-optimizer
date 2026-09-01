@@ -238,7 +238,7 @@ pre {
   word-wrap: break-word;
   overflow-wrap: break-word;
   border: 1px solid var(--border-color);
-  padding: 1.5rem;
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
   border-radius: var(--radius);
   overflow-x: auto;
   font-size: 0.875rem;
