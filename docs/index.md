@@ -165,27 +165,28 @@ author: Ranadeep Saha
 <section id="documentation">
   <div class="container">
     <h2> Documentation</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Quick Start</h3>
-        <pre><code>git clone https://github.com/unknown404-practice/water-aware-optimizer.git
+    
+    <div style="background: var(--bg-secondary); padding: 2rem; border-radius: var(--radius); margin-bottom: 2rem; box-shadow: var(--shadow);">
+      <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Quick Start</h3>
+      <pre><code>git clone https://github.com/unknown404-practice/water-aware-optimizer.git
 cd water-aware-optimizer
 pip install -r requirements.txt
 jupyter notebook notebooks/00_workload_distributor_pipeline.ipynb</code></pre>
-      </div>
-      <div class="card">
-        <h3>Requirements</h3>
-        <pre><code>pandas>=1.3.0
+    </div>
+    
+    <div style="background: var(--bg-secondary); padding: 2rem; border-radius: var(--radius); margin-bottom: 2rem; box-shadow: var(--shadow);">
+      <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Requirements</h3>
+      <pre><code>pandas>=1.3.0
 numpy>=1.20.0
 scikit-learn>=1.0.0
 matplotlib>=3.4.0
 requests>=2.25.0
 jupyter>=1.0.0</code></pre>
-      </div>
-      <div class="card">
-        <h3>Visualizations</h3>
-        <p>7 professional PNG charts showing energy, water, and carbon savings with cost breakdowns.</p>
-      </div>
+    </div>
+    
+    <div style="background: var(--bg-secondary); padding: 2rem; border-radius: var(--radius); box-shadow: var(--shadow);">
+      <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Visualizations</h3>
+      <p style="font-size: 1.1rem;">7 professional PNG charts showing energy, water, and carbon savings with cost breakdowns.</p>
     </div>
   </div>
 </section>

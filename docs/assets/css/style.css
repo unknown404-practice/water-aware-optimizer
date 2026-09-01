@@ -233,7 +233,11 @@ img {
 
 /* Code Blocks - Responsive */
 pre {
-  background: var(--bg-secondary);
+  background: var(--bg-color);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  border: 1px solid var(--border-color);
   padding: 1.5rem;
   border-radius: var(--radius);
   overflow-x: auto;
@@ -251,6 +255,7 @@ code {
   position: absolute;
   right: 10px;
   top: 10px;
+  z-index: 100;
   padding: 5px 10px;
   background: var(--primary-color);
   color: white;
