@@ -1,7 +1,5 @@
 # AI-Powered Water-Aware Workload & Cooling Optimizer
 
-<div align="center">
-
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/unknown404-practice/water-aware-optimizer.svg)](https://github.com/unknown404-practice/water-aware-optimizer/stargazers)
@@ -12,8 +10,6 @@
 **By: Ranadeep Saha** | Member, Google Developer Group
 
 [Results](#results) • [Quick Start](#quick-start) • [Project Structure](#project-structure) • [Contact](#contact)
-
-</div>
 
 ---
 
@@ -56,6 +52,7 @@ We combine **real production workload traces** (Alibaba) with **real weather dat
 ## Results
 
 ### Optimization Savings
+
 | Metric | Savings |
 |--------|---------|
 | Energy | **10-25%** |
@@ -63,6 +60,7 @@ We combine **real production workload traces** (Alibaba) with **real weather dat
 | Carbon | **15-30%** |
 
 ### SLA Compliance
+
 - **100%** of jobs finish within deadline
 - **0** SLA violations
 

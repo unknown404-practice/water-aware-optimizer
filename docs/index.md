@@ -4,8 +4,6 @@ title: AI Water-Aware Optimizer | Ranadeep Saha
 ---
 # AI-Powered Water-Aware Workload & Cooling Optimizer
 
-<div align="center">
-
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/unknown404-practice/water-aware-optimizer.svg)](https://github.com/unknown404-practice/water-aware-optimizer/stargazers)
@@ -16,8 +14,6 @@ title: AI Water-Aware Optimizer | Ranadeep Saha
 **By: Ranadeep Saha** | Member, Google Developer Group
 
 [Results](#results) • [Quick Start](#quick-start) • [Project Structure](#project-structure) • [Contact](#contact)
-
-</div>
 
 ---
 
@@ -60,6 +56,7 @@ We combine **real production workload traces** (Alibaba) with **real weather dat
 ## Results
 
 ### Optimization Savings
+
 | Metric | Savings |
 |--------|---------|
 | Energy | **10-25%** |
@@ -67,6 +64,7 @@ We combine **real production workload traces** (Alibaba) with **real weather dat
 | Carbon | **15-30%** |
 
 ### SLA Compliance
+
 - **100%** of jobs finish within deadline
 - **0** SLA violations
 
@@ -128,3 +126,27 @@ Run the notebooks sequentially in your Jupyter environment:
 **GitHub:** [@unknown404-practice](https://github.com/unknown404-practice)  
 **LinkedIn:** [Ranadeep Saha](https://www.linkedin.com/in/ranadeep-saha-a03296404)  
 **Affiliation:** Member, Google Developer Group  
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var codeBlocks = document.querySelectorAll("pre");
+    codeBlocks.forEach(function(block) {
+        var button = document.createElement("button");
+        button.className = "copy-btn";
+        button.innerText = "Copy";
+        button.style.cssText = "position: absolute; right: 10px; top: 10px; padding: 5px 10px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px;";
+        
+        block.style.position = "relative";
+        block.appendChild(button);
+        
+        button.addEventListener("click", function() {
+            var code = block.querySelector("code").innerText;
+            navigator.clipboard.writeText(code).then(function() {
+                button.innerText = "Copied!";
+                setTimeout(function() { button.innerText = "Copy"; }, 2000);
+            });
+        });
+    });
+});
+</script>
