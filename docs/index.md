@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AI Water-Aware Optimizer | Ranadeep Saha
-description: AI-powered optimization for sustainable data centers - Triple optimization: Energy + Water + Carbon
+description: "AI-powered optimization for sustainable data centers - Triple optimization: Energy + Water + Carbon"
 author: Ranadeep Saha
 ---
 
