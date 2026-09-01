@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data
+*.csv
+*.tar.gz
+data/raw/
+data/processed/
+
+# Models
+*.pkl
+*.h5
+*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs
+outputs/*.png
+!outputs/.gitkeep
+
+# Environment
+.env
+.env.local
