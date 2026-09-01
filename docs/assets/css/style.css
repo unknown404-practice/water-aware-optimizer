@@ -70,6 +70,7 @@ body {
   bottom: 0;
   background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="rgba(255,255,255,0.1)"/></svg>');
   opacity: 0.1;
+  pointer-events: none;
 }
 
 .hero h1 {
@@ -278,6 +279,7 @@ code {
 }
 
 .btn:hover {
+  cursor: pointer;
   background: var(--secondary-color);
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);

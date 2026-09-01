@@ -18,7 +18,7 @@ author: Ranadeep Saha
         <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
       </a>
       <a href="https://github.com/unknown404-practice/water-aware-optimizer/stargazers" class="badge">
-        <img src="https://img.shields.io/github/stars/unknown404-practice/water-aware-optimizer.svg" alt="GitHub stars">
+        <img src="https://img.shields.io/github/stars/unknown404-practice/water-aware-optimizer.svg?style=social&label=Star" alt="GitHub stars">
       </a>
       <a href="https://github.com/unknown404-practice/water-aware-optimizer/issues" class="badge">
         <img src="https://img.shields.io/github/issues/unknown404-practice/water-aware-optimizer.svg" alt="Issues">
@@ -37,8 +37,8 @@ author: Ranadeep Saha
     </p>
     
     <div style="margin-top: 2rem;">
-      <a href="https://github.com/unknown404-practice/water-aware-optimizer" class="btn">View on GitHub</a>
-      <a href="https://github.com/unknown404-practice/water-aware-optimizer/tree/main/notebooks" class="btn" style="background: white; color: var(--primary-color);">View Notebooks</a>
+      <a href="https://github.com/unknown404-practice/water-aware-optimizer" class="btn" target="_blank">View on GitHub</a>
+      <a href="https://github.com/unknown404-practice/water-aware-optimizer/tree/main/notebooks" class="btn" style="background: white; color: var(--primary-color);" target="_blank">View Notebooks</a>
     </div>
   </div>
 </div>
@@ -202,7 +202,7 @@ jupyter>=1.0.0</code></pre>
     </p>
     
     <div style="margin-top: 2rem;">
-      <a href="https://github.com/unknown404-practice/water-aware-optimizer" class="btn">View Full Project</a>
+      <a href="https://github.com/unknown404-practice/water-aware-optimizer" class="btn" target="_blank">View Full Project</a>
     </div>
   </div>
 </section>
