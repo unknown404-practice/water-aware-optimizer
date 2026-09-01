@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | default: 'AI-powered optimization for sustainable data centers' }}">
+  <meta name="author" content="{{ page.author | default: 'Ranadeep Saha' }}">
+  
+  <title>{{ page.title | default: 'AI Water-Aware Optimizer' }}</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  
+  <!-- SEO -->
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://unknown404-practice.github.io/water-aware-optimizer/">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+</head>
+<body>
+  {{ content }}
+  
+  <script>
+    // Copy code button script
+    document.addEventListener("DOMContentLoaded", function() {
+      var codeBlocks = document.querySelectorAll("pre");
+      codeBlocks.forEach(function(block) {
+        var button = document.createElement("button");
+        button.className = "copy-btn";
+        button.innerText = "Copy";
+        block.appendChild(button);
+        
+        button.addEventListener("click", function() {
+          var code = block.querySelector("code").innerText;
+          navigator.clipboard.writeText(code).then(function() {
+            button.innerText = "Copied!";
+            setTimeout(function() { button.innerText = "Copy"; }, 2000);
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>
