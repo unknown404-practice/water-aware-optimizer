@@ -94,27 +94,29 @@ body {
   margin: 2rem 0;
 }
 
+
+
+
+
+
+
+
 .badge {
   display: inline-flex;
   align-items: center;
-  padding: 0.5rem 1rem;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 50px;
-  font-size: 0.875rem;
-  font-weight: 600;
   transition: var(--transition);
-  backdrop-filter: blur(10px);
+  margin: 0 5px;
 }
 
 .badge:hover {
-  background: rgba(255, 255, 255, 0.3);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+  filter: brightness(1.1);
 }
 
 .badge img {
-  height: 20px;
-  width: 20px;
-  margin-right: 0.5rem;
+  height: 28px;
+  width: auto !important;
+  border-radius: 4px;
 }
 
 /* Navigation - Responsive */
@@ -325,10 +327,7 @@ footer {
     align-items: center;
   }
   
-  .badge {
-    width: 100%;
-    justify-content: center;
-  }
+  
   
   .nav ul {
     flex-direction: column;

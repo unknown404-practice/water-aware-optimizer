@@ -38,7 +38,7 @@ author: Ranadeep Saha
     
     <div style="margin-top: 2rem;">
       <a href="https://github.com/unknown404-practice/water-aware-optimizer" class="btn">View on GitHub</a>
-      <a href="#results" class="btn" style="background: white; color: var(--primary-color);">See Results</a>
+      <a href="https://github.com/unknown404-practice/water-aware-optimizer/tree/main/notebooks" class="btn" style="background: white; color: var(--primary-color);">View Notebooks</a>
     </div>
   </div>
 </div>
