@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: AI Water-Aware Optimizer | Ranadeep Saha
 ---
 
